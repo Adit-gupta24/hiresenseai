@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Cache artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Environments & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Streamlit local secrets (never commit secrets to GitHub)
+.streamlit/secrets.toml
+.streamlit/*.log
+
+# Environment variables & Credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+*.secret
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary upload directories
+data/uploads/
+*.tmp
+*.bak
